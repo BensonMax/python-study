@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07306565-525b-4dc3-b773-626d4a1d2cfb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo1/定义变量.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo1/input.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo1/Python注释.py" afterPath="$PROJECT_DIR$/demo1/Python注释.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,11 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="定义变量.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="定义变量.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo1/定义变量.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="input.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo1/input.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="5" column="23" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -63,6 +72,7 @@
         <option value="$PROJECT_DIR$/demo1/hello word.py" />
         <option value="$PROJECT_DIR$/demo1/Python注释.py" />
         <option value="$PROJECT_DIR$/demo1/定义变量.py" />
+        <option value="$PROJECT_DIR$/demo1/input.py" />
       </list>
     </option>
   </component>
@@ -203,6 +213,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1/input.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="23" />
           <folding />
         </state>
       </provider>
