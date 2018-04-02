@@ -71,6 +71,8 @@ def main():
         col_B = 'B%s' % (name.index(i) + 1)
         col_C = 'C%s' % (name.index(i) + 1)
         col_D = 'D%s' % (name.index(i) + 1)
+        print (i)
+
         ws1[col_A] = i
         ws1[col_B] = m
         ws1[col_C] = o
