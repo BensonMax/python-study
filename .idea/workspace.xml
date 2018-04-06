@@ -2,26 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07306565-525b-4dc3-b773-626d4a1d2cfb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AccpointsTop/AccpointsTop.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo7/1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo7/2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo7/2018-01-19 17:14:50生成的兑换码列表.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo7/2018-01-19.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo7/2018-02-02 16:02:42生成的兑换码列表.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo7/2018-02-02 16:02:42生成的兑换码列表.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo7/2018-02-02.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo7/2018-02-08 19:26:27生成的兑换码列表.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo7/2018-02-08 19:26:27生成的兑换码列表.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo7/2018-02-08 19:27:57生成的兑换码列表.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo7/2018-02-08 19:27:57生成的兑换码列表.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo7/2018-02-08-3000.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo7/2018-02-08.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo7/2018-03-05 10:56:05生成的兑换码列表.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo7/2018-03-05 10:56:05生成的兑换码列表.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo7/2018-03-05 11:10:39生成的兑换码列表.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo7/2018-03-05 11:10:39生成的兑换码列表.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo7/2018-03-05-1000-2000.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/demo7/2018-03-05-500-5000.json" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/列表去重.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/抛出自定义的异常.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/给程序动态传参.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plane/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2017-12306" afterPath="$PROJECT_DIR$/2017-12306" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -33,7 +17,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/plane/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+              <folding>
+                <element signature="e#24#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -57,10 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/demo1/python2和python3-input的区别.py" />
-        <option value="$PROJECT_DIR$/demo2/if-else.py" />
-        <option value="$PROJECT_DIR$/demo2/whiile.py" />
-        <option value="$PROJECT_DIR$/demo2/whiile循坏.py" />
         <option value="$PROJECT_DIR$/demo2/打印*号金字塔.py" />
         <option value="$PROJECT_DIR$/demo2/python打印九九乘法表.py" />
         <option value="$PROJECT_DIR$/demo3/组成字符串的两种方式.py" />
@@ -108,6 +101,10 @@
         <option value="$PROJECT_DIR$/object/异常处理else用法.py" />
         <option value="$PROJECT_DIR$/object/test.txt" />
         <option value="$PROJECT_DIR$/object/finally使用场景.py" />
+        <option value="$PROJECT_DIR$/object/抛出自定义的异常.py" />
+        <option value="$PROJECT_DIR$/object/给程序动态传参.py" />
+        <option value="$PROJECT_DIR$/object/列表去重.py" />
+        <option value="$PROJECT_DIR$/plane/main.py" />
       </list>
     </option>
   </component>
@@ -139,6 +136,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,27 +144,37 @@
               <item name="python-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="python-study" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="python-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python-study" type="462c0819:PsiDirectoryNode" />
+              <item name="plane" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python-study" type="462c0819:PsiDirectoryNode" />
+              <item name="redeems" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/kenuo/code/python/python-study/demo4/交换两个变量的方式.py" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/demo7" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/plane/resource" />
       <recent name="$PROJECT_DIR$/demo6/test" />
       <recent name="$PROJECT_DIR$/demo5/test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/demo7" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -199,12 +207,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295238" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -217,6 +225,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295238" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -253,48 +262,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demo3/组成字符串的两种方式.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo1/python2和python3-input的区别.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo6/chat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="42" column="40" lean-forward="false" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo5/文件特定字符串去掉.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo5/文件批量重新命名.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo5/test复制.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo5/open-文件读写操作.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -310,13 +277,7 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm2017.2/python_stubs/348993582/__builtin__.py" />
-    <entry file="file://$PROJECT_DIR$/demo7/2018-01-19.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo7/2018-01-19.json" />
     <entry file="file://$PROJECT_DIR$/demo6/ModifyFilename.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -353,13 +314,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo3/字符串切片.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo6/lagouSpider.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
@@ -374,24 +328,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo7/2018-02-02.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo7/2018-02-02.json" />
     <entry file="file://$PROJECT_DIR$/demo7/兑换码处理.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="36" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redeems/redeems.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -438,48 +379,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo7/2018-02-08-3000.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2042">
-          <caret line="625" column="1" lean-forward="false" selection-start-line="625" selection-start-column="1" selection-end-line="625" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo7/2018-02-02 16:02:42生成的兑换码列表.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-151">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo7/2018-02-08.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6250">
-          <caret line="8" column="42" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="8" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo7/2018-03-05-500-5000.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="797">
-          <caret line="60002" column="5" lean-forward="false" selection-start-line="60002" selection-start-column="5" selection-end-line="60002" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo7/2018-03-05-1000-2000.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="827">
-          <caret line="24001" column="1" lean-forward="false" selection-start-line="24001" selection-start-column="1" selection-end-line="24001" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo7/2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5866">
-          <caret line="11983" column="38" lean-forward="false" selection-start-line="11983" selection-start-column="38" selection-end-line="11983" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo7/2018-02-08-3000.json" />
+    <entry file="file://$PROJECT_DIR$/demo7/2018-02-02 16:02:42生成的兑换码列表.csv" />
+    <entry file="file://$PROJECT_DIR$/demo7/2018-02-08.json" />
+    <entry file="file://$PROJECT_DIR$/demo7/2018-03-05-500-5000.json" />
+    <entry file="file://$PROJECT_DIR$/demo7/2018-03-05-1000-2000.json" />
+    <entry file="file://$PROJECT_DIR$/demo7/2" />
     <entry file="file://$PROJECT_DIR$/object/demo2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -526,7 +431,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -548,47 +452,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="50" column="6" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AccpointsTop/AccpointsTop.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/AccpointsTop/AccpointsTop.py" />
     <entry file="file://$PROJECT_DIR$/2017-12306/auto_book.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2447">
           <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo7/2018-02-08 19:26:27生成的兑换码列表.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3553">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo7/1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1322">
-          <caret line="24001" column="0" lean-forward="false" selection-start-line="24001" selection-start-column="0" selection-end-line="24001" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo7/2018-02-08 19:26:27生成的兑换码列表.csv" />
+    <entry file="file://$PROJECT_DIR$/demo7/1" />
     <entry file="file://$PROJECT_DIR$/demo8/itchat.pkl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -596,7 +476,71 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2017-12306/user.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redeems/redeems.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/抛出自定义的异常.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/给程序动态传参.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo3/字符串切片.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo3/组成字符串的两种方式.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/列表去重.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plane/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
