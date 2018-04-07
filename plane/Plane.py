@@ -1,36 +1,25 @@
-#-*- coding:utf-8 -*-
-import pygame
+# -*- coding:utf-8 -*-
 from Bullet import Bullet
+from BasePlane import BasePlane
 
-class Plane(object):
 
-    image = None
+class Plane(BasePlane):
 
+    # 储存子弹对象
     bullet_list = []
 
-    def __init__(self, screen_temp, x, y):
-        self.screen = screen_temp
-        self.x = x
-        self.y = y
-        self.img_load()
+    def __init__(self, screen_temp):
+        BasePlane.__init__(self, screen_temp, 210, 700, "./resource/hero1.png")
 
-    def img_load(self):
-        self.image = pygame.image.load("./resource/hero1.png")
-
-    def display(self):
-        self.screen.blit(self.image, (self.x, self.y))
-        for bullet in self.bullet_list:
-            # 判断子弹是否越界
-            if bullet.judge():
-                self.bullet_list.remove(bullet) # 如果子弹越界就删除子弹
-            bullet.display()
-            bullet.move()
-
+    # 飞机向左移动偏移量
     def move_left(self):
         self.x -= 10
 
+    # 飞机向右移动偏移量
     def move_right(self):
         self.x += 10
 
+    # 将飞机创建的子弹对象存储进 bullet_list 列表中
     def fire(self):
         self.bullet_list.append(Bullet(self.screen, self.x, self.y))
+        print(self.bullet_list)
